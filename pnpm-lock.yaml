@@ -11,6 +11,9 @@ dependencies:
   '@astrojs/tailwind':
     specifier: ^5.1.0
     version: 5.1.0(astro@4.3.1)(tailwindcss@3.4.1)
+  '@fontsource-variable/museomoderno':
+    specifier: ^5.0.19
+    version: 5.0.19
   astro:
     specifier: ^4.3.1
     version: 4.3.1(typescript@5.3.3)
@@ -615,6 +618,10 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@fontsource-variable/museomoderno@5.0.19:
+    resolution: {integrity: sha512-WK9+ueW9RD+XsYt1dz0/aeXC5YRXcVVvd8jkdSYkI3Cta+LT3euIONByDRNX8KcevK2/RTOIxkElha4nAr+R3Q==}
+    dev: false
 
   /@isaacs/cliui@8.0.2:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
