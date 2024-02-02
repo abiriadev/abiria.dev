@@ -1,0 +1,24 @@
+{
+	"$schema": "https://json.schemastore.org/prettierrc.json",
+	"editorconfig": true,
+	"printWidth": 60,
+	"tabWidth": 4,
+	"useTabs": true,
+	"semi": false,
+	"singleQuote": true,
+	"trailingComma": "all",
+	"bracketSpacing": true,
+	"arrowParens": "avoid",
+	"htmlWhitespaceSensitivity": "ignore",
+	"endOfLine": "lf",
+	"vueIndentScriptAndStyle": true,
+	"overrides": [
+		{
+			"files": ["*.yaml", "*.yml"],
+			"options": {
+				"tabWidth": 2
+			}
+		}
+	],
+	"plugins": ["prettier-plugin-astro"]
+}
